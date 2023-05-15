@@ -21,9 +21,9 @@
         "dev": "ts-node-dev --transpile-only src/server.ts"
      },
 ### tsconfig.json
-```
+~~~javascript
 { "compilerOptions": { "module": "commonjs", "esModuleInterop": true, "allowSyntheticDefaultImports": true, "target": "es6", "noImplicitAny": true, "moduleResolution": "node", "sourceMap": true, "outDir": "dist", "baseUrl": ".", "paths": { "": [ "node_modules/", "src/types/" ] } }, "include": [ "src/**/" ] }
-```
+~~~
 ## Dependências Outras
     * express
         * npm install --save express
